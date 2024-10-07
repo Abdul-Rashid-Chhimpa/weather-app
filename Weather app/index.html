@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+
+    <link rel="stylesheet" href="./weather.css">
+</head>
+
+<body>
+
+    <div class="containor">
+
+        <header>
+            <h1>Weather App</h1>
+        </header>
+
+        <div class="box1">
+            <div class="box21" id="time">
+                <h1 class="City_name">Nagaur</h1>
+                <h2 class="Country">06-10-24 </h2>
+            </div>
+            <div class="box22">
+                <input type="text" id="input" placeholder="Enter city name">
+                <button type="button" id="btn">Search</button>
+            </div>
+        </div>
+
+
+        <div class="box2">
+
+            <div class="temprature">
+                <div class="temprature1" id="temprature">
+                    <h1 class="temprature2">15 </h1>
+                </div>
+
+                <div class="temprature2">
+                    <h2 id="weather_condition"> &deg;C | &deg;F <br>
+                        <span class="mousam">Partly cloudy</span></h2>
+                </div>
+            </div>
+
+            <div class="humidity">
+
+                <div class="icon" id="weather_img">
+                    <!-- <img class="Icon" src="../Api_img/Image Gallery/download.png" alt=""> -->
+                </div>
+
+                <div class="sensor">
+                    <div class="sensor1" id="sensor1">
+                        <img src="./img/thermometer.png" alt="">
+                        <h2 class="feels_Like"> Feels like: 31 &deg;C </h2>
+                    </div>
+
+                    <div class="sensor2" id="sensor2">
+                        <img src="./img/humidity.png" alt="">
+                        <h2 class="Humidity"> Humidity: 15% </h2>
+                    </div>
+
+                    <div class="sensor3" id="sensor3">
+                        <img src="./img/storm.png" alt="">
+                        <h2 class="speed">Wind Speed: 14 kph</h2>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <footer>
+            <h2>Made By : <span>@Abdul Rashid Chhimpa</span></h2>
+        </footer>
+    </div>
+
+    <script src="./weather.js">
+    </script>
+</body>
+
+</html>

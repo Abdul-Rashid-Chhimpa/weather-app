@@ -1,0 +1,462 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.containor {
+    border: 0.1px solid black;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 700px;
+    height: 400px;
+    margin-top: 5%;
+    border-radius: 10px;
+    background: url("./img/photo-1502957291543-d85480254bf8.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.containor header h1 {
+    font-size: 1.5rem;
+    color: rgb(124, 255, 255);
+    text-align: center;
+    margin-top: 5px;
+    text-shadow: 0.8px 0.8px 2px rgb(254, 254, 254);
+}
+
+.containor .box1 {
+    /* border: 0.1px solid red; */
+    margin-top: 10px;
+    height: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    backdrop-filter: blur(20px);
+}
+
+.containor .box1 .box21 {
+    /* border: 0.1px solid black; */
+    height: 60px;
+    border-radius: 5px;
+}
+
+.containor .box1 .box21 h1 {
+    font-size: 36px;
+    color: rgb(255, 255, 255);
+    margin-left: 5%;
+    font-family: sans-serif;
+}
+
+.containor .box1 .box21 h2 {
+    font-size: 16px;
+    color: rgb(154, 233, 208);
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 5%;
+    font-weight: 100;
+}
+
+
+/* box22 */
+
+.containor .box1 .box22 {
+    /* border: 0.1px solid black; */
+    height: 60px;
+}
+
+.containor .box1 .box22 input {
+    padding: 9px 40px;
+    margin-left: 1%;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    text-align: start;
+    background-color: rgb(59, 118, 176);
+    color: white;
+    /* background: transparent; */
+    backdrop-filter: blur(100px);
+    box-shadow: 0.5px 0.1px 0.9px rgb(71, 65, 65);
+}
+
+.containor .box1 .box22 input:hover {
+    border: 1px solid rgb(157, 181, 191);
+}
+
+.containor .box1 .box22 input::placeholder {
+    color: aliceblue;
+}
+
+.containor .box1 .box22 button {
+    padding: 8px 13px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background: transparent;
+    backdrop-filter: blur(100px);
+    color: white;
+    box-shadow: 0.5px 0.5px 1.2px 0.3px rgb(14, 106, 234);
+    cursor: pointer;
+}
+
+.containor .box1 .box22 button:hover {
+    color: rgb(255, 255, 255);
+    border: 0.5px solid white;
+    font-size: 14px;
+    transition: 0.1s linear;
+}
+
+
+/* box2 */
+
+.containor .box2 {
+    /* border: 0.1px solid red; */
+    margin-top: 10px;
+    height: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    backdrop-filter: blur(10px);
+    border-radius: 5px;
+}
+
+.containor .box2 .temprature {
+    /* border: 0.1px solid red; */
+    margin-left: 10px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.containor .box2 .temprature .temprature1 h1 {
+    font-size: 5rem;
+    margin-top: 32%;
+    margin-left: 5%;
+    color: rgb(222, 222, 222);
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-family: sans-serif;
+    font-weight: 100;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.containor .box2 .temprature .temprature2 h2 {
+    margin-top: 40%;
+    font-size: 1.2rem;
+    color: rgb(192, 203, 203);
+}
+
+.containor .box2 .temprature .temprature2 h2 span {
+    font-size: 1rem;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    font-family: Arial, Helvetica, sans-serif;
+    color: aqua;
+}
+
+.containor .box2 .temprature h2 {
+    margin-left: 25%;
+    font-size: 18px;
+}
+
+.containor .box2 .humidity {
+    /* border: 0.1px solid red; */
+    margin-right: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.containor .box2 .humidity .icon {
+    /* border: 0.1px solid blue; */
+}
+
+.containor .box2 .humidity .icon img {
+    margin-top: 40%;
+    margin-left: 40%;
+    width: auto;
+    height: auto;
+}
+
+.containor .box2 .sensor {
+    /* border: 0.1px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.containor .box2 .sensor img {
+    margin-top: 5px;
+    margin-left: 40%;
+}
+
+.containor .box2 .sensor .sensor1 h2 {
+    font-size: 14px;
+    font-weight: 300;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(165, 235, 246)
+}
+
+.containor .box2 .sensor .sensor2 h2 {
+    font-size: 14px;
+    font-weight: 300;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(165, 235, 246)
+}
+
+.containor .box2 .sensor .sensor3 h2 {
+    font-size: 14px;
+    font-weight: 300;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(165, 235, 246)
+}
+
+@media screen and (max-width:950px) {
+    .containor {
+        width: auto;
+        height: 700px;
+    }
+    .containor .box1 {
+        display: flex;
+        /* grid-template-columns: 1fr; */
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        backdrop-filter: blur(10px);
+        margin-top: 25px;
+        height: 90px;
+        box-shadow: 0.1px 0.1px 0.9px 0.5px rgb(139, 210, 214);
+        border: none;
+        outline: none;
+        border-radius: 5px;
+    }
+    .containor .box1 .box21 {
+        height: auto;
+    }
+    .containor .box1 .box21 h1 {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    .containor .box1 .box21 h2 {
+        font-size: 12px;
+    }
+    .containor .box1 .box22 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .containor .box1 .box22 input {
+        padding: 7px 8px;
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .containor .box1 .box22 button {
+        height: 29px;
+        font-size: 12px;
+        margin-top: 0px;
+    }
+    .containor .box2 {
+        backdrop-filter: blur(4px);
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 50px;
+        border-radius: 5px;
+        box-shadow: 0.1px 0.1px 0.9px 0.5px rgb(139, 210, 214);
+        border: none;
+        outline: none;
+    }
+    /*Box2*/
+    .containor .box2 .temprature {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .containor .box2 .temprature .temprature1 h1 {
+        font-size: 4.6rem;
+    }
+    .containor .box2 .temprature .temprature2 h2 {
+        font-size: 1rem;
+    }
+    .containor .box2 .temprature .temprature2 h2 span {
+        font-size: 0.8rem;
+    }
+    .containor .box2 .humidity {
+        /* border: 0.1px solid wheat; */
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .containor .box2 .humidity .icon {
+        display: flex;
+        justify-content: center;
+    }
+    .containor .box2 .humidity .icon img {
+        width: auto;
+        height: auto;
+    }
+    .containor .box2 .humidity .sensor {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .containor .box2 .humidity .sensor .sensor1 img {
+        margin-right: 70px;
+    }
+    .containor .box2 .humidity .sensor .sensor2 img {
+        margin-right: 70px;
+    }
+    .containor .box2 .humidity .sensor .sensor3 img {
+        margin-right: 70px;
+    }
+    .containor .box2 .humidity .sensor .sensor1 h2 {
+        font-size: 0.9rem;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        font-variant: small-caps;
+        color: rgb(255, 255, 255);
+    }
+    .containor .box2 .humidity .sensor .sensor2 h2 {
+        font-size: 0.9rem;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        font-variant: small-caps;
+        color: rgb(242, 242, 242);
+    }
+    .containor .box2 .humidity .sensor .sensor3 h2 {
+        font-size: 0.9rem;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        font-variant: small-caps;
+        color: rgb(255, 255, 255);
+    }
+}
+
+
+/*footer*/
+
+.containor footer {
+    /* border: 0.1px solid white; */
+    height: 40px;
+    margin-top: 70px;
+    text-align: end;
+}
+
+.containor footer h2 {
+    color: aqua;
+    margin-top: 6px;
+    margin-left: 2px;
+    font-size: 1rem;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    color: rgb(221, 109, 109);
+    margin-right: 5px;
+}
+
+.containor footer h2 span {
+    color: white;
+    font-size: small;
+}
+
+@media screen and (max-width:500px) {
+    .containor {
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .containor .box1 .box21 {
+        height: auto;
+    }
+    .containor .box1 .box21 h1 {
+        font-size: 1rem;
+        margin-top: 12px;
+    }
+    .containor .box1 .box21 h2 {
+        text-align: start;
+        font-size: 0.7rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .containor .box2 {
+        height: auto;
+    }
+    .containor .box1 .box22 input {
+        margin-bottom: 20px;
+    }
+    .containor .box1 .box22 button {
+        margin-bottom: 12px;
+    }
+    .containor .box2 .humidity .icon {
+        display: flex;
+        justify-content: center;
+    }
+    .containor .box2 .temprature {
+        display: flex;
+        flex-direction: row;
+    }
+    .containor .box2 .temprature .temprature1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .containor .box2 .temprature .temprature1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .containor .box2 .temprature .temprature1 h1 {
+        font-size: 3.9rem;
+        text-align: center;
+        margin-top: 40px;
+    }
+    .containor .box2 .temprature .temprature2 h2 {
+        display: flex;
+        flex-direction: column;
+        font-size: 0.9rem;
+        margin-right: 42px;
+        margin-right: 10px;
+    }
+    .containor .box2 .humidity .sensor {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: end;
+    }
+    .containor .box2 .humidity .icon {
+        /* border: 0.1px solid black; */
+        width: 100px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+    .containor .box2 .humidity .icon img {
+        /* width: 100%; */
+        margin-bottom: 100px;
+        margin-right: 100px;
+        position: fixed;
+    }
+    .containor .box2 .humidity .sensor .sensor1 h2 {
+        font-size: 0.8rem;
+        font-weight: 100;
+    }
+    .containor .box2 .humidity .sensor .sensor2 h2 {
+        font-size: 0.8rem;
+        font-weight: 100;
+    }
+    .containor .box2 .humidity .sensor .sensor3 h2 {
+        font-size: 0.8rem;
+        font-weight: 100;
+    }
+    .containor footer {
+        margin-bottom: 10px;
+    }
+}
